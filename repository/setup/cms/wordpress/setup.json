@@ -1,0 +1,39 @@
+{
+  "version": "1.1.13",
+  "type": "free",
+  "actions": [
+    {
+      "data": [
+        {
+          "PAAction": "execute",
+          "PAFile": "wp-content/plugins/payzito/includes/cms/wordpress/installer/install.php"
+        }
+      ],
+      "label": "اقدامات اولیه پلاگین"
+    },
+    {
+      "data": [
+        {
+          "PAAction": "finalTasks",
+          "PAElement": "pkg_payzito"
+        }
+      ],
+      "label": "اقدامات نهایی"
+    }
+  ],
+  "changelogs": [
+    {
+      "version": "1.1.13",
+      "changelogs": [
+        {
+          "type": "fixed",
+          "text": "عدم وریفای و تایید تراکنش ها در برخی مواقع"
+        },
+        {
+          "type": "fixed",
+          "text": "عدم ایجاد تراکنش و بروزخطا در برخی مواقع"
+        }
+      ]
+    }
+  ]
+}
